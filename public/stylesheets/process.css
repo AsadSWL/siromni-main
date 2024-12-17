@@ -1,0 +1,58 @@
+.process {
+	margin: 2% auto;
+	text-align: center;
+}
+
+.multiplechoice-page {
+	text-align: left;
+}
+.start-page, .accesscode-page, .multiplechoice-page {
+	margin-top: 8%;
+	width: 50%;
+}
+.page-page {
+	width: 60%;
+}
+.start-page input, .accesscode-page input, .multiplechoice-page input {
+	margin: 0 auto;
+	width: 30%;
+}
+#title {
+	font-size: 2.25em;
+}
+#message {
+	font-size: 1.5em;
+}
+.sub-title {
+	font-size: 1.75rem;
+}
+.user-qna textarea, .create-page textarea, .create-page input {
+	width: 70%;
+	margin: 0 auto;
+}
+.process-page-image, .process-page-video, .process-page-audio {
+	width: 50%;
+	padding: 1rem 0;
+}
+#instructions {
+	position: fixed;
+	float: left;
+	width: 16%;
+	padding: 1%;
+	top: 5rem;
+	bottom: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#instruction-text {
+	display: none;
+}
+#instruction-handler {
+	position: fixed;
+	bottom: 1rem;
+	left: 1.5rem;
+	z-index: 1000;
+	background: #fff;
+	border: 1px solid #d4d4d4;
+	padding: 1rem 1rem 0 1rem;
+}
