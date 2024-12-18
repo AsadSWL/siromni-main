@@ -21,10 +21,10 @@ module.exports = {
 			// password: "",
 			// database: "omnitogether-social-media",
 
-			host: process.env.DEV_DB_HOST,
-			user: process.env.DEV_DB_USER,
-			password: process.env.DEV_DB_PASSWORD,
-			database: process.env.DEV_DB_NAME
+			host: "3.210.250.91",
+			user: "josh",
+			password: "Godlover00*!",
+			database: "omni",
 		}
 	},
 	production: {
